@@ -6,4 +6,4 @@ client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.login("ODUxMTcwMzQwOTUyMzQyNjI4.YL0YJw.OcnOaSpbJDBcL0lw1DGqqiD3O7c");
+client.login(process.env.BOT_LOGIN_TOKEN);
